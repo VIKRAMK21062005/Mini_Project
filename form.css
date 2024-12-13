@@ -1,0 +1,146 @@
+
+* {
+    box-sizing: border-box;
+  }
+  .tittle
+  {
+    font-size: 30px;
+    margin: 5px 10px 10px 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgba(249, 249, 249, 0.811);
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:120px ;
+    height: 600px;
+    width: 100%;
+    position: relative;
+  }
+  /* Add styles to the form formContainer */
+  .formContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+        position: inherit;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    right: 0;
+
+    margin: 0 20px;
+    height: 560px;
+    width: 650px;
+    padding: 16px;
+    backdrop-filter: blur(2px) saturate(187%);
+    -webkit-backdrop-filter: blur(2px) saturate(187%);
+    background-color: rgba(40, 41, 41, 0.532);
+    border-radius: 12px;
+    
+
+     }
+  
+  /* Full-width input fields */
+  input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 30px;
+    font-size: 20px;
+
+    height: 40px;
+    border: none;
+    backdrop-filter: blur(20px) saturate(180%);
+     -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(11, 38, 88, 0.667) ;
+    
+    color: white;
+   
+   
+  }
+  textarea{
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    backdrop-filter: blur(20px) saturate(180%);
+     -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(11, 38, 88, 0.667) ;
+    color: white;
+  }
+
+
+  .color{
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+   background-color: rgba(11, 38, 88, 0.667) ;
+   margin-bottom: 10px;
+   border-radius: 30px;
+   text-align: center;
+   width: 100%;
+   padding: auto;
+  }
+  input[type=file]{
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  input:focus, textarea:focus {
+    background-color: rgba(41, 67, 116, 0.667) ;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    font-size: 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #48FFBD, #00E3CA, #00C5D1, #00A6D0,#0066AC);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.6;
+    transition: 0.4s;
+
+  }
+  .btn a{
+    color: white;
+    text-decoration:none ;
+  }
+  
+  .btn:hover {
+    font-size: 21px;
+    
+    opacity: 1;
+  }
+  .error p {
+ 
+    margin: 0px auto; 
+  
+    color: #fe0400e4; 
+  }
+ 
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;}
+.send{
+  height: 40px;
+  top: 5px;
+
+}

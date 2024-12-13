@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latest news</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="hackathonLogo.ico">
+</head>
+<body>
+    <div id="preloader"><img src="4---final.gif" alt=""></div>
+    <div class="circle" id="circle"> </div>
+    
+    <div id="banner"></div>
+    <script src="java.js"></script>
+
+
+    <nav id="nav" class="nav">
+      
+        <a href="index.html"><img class="logo1" src="logo.png" alt=""></a>
+        <div class="centerNav">  
+        <ul >
+              <li><a id="menu" href="index.html">home</a></li>
+              <li><a id="menu"  href="alumni.html">alumnis</a></li>
+              <li><a id="menu"  href="communitychat.html">COMMUNITY Chat</a></li>
+              <li><a id="menu"  href="testimonial.html">testimonials</a></li>
+              <li><a id="menu"  href="creator.html">creators</a></li>
+          </ul>
+        </div>
+          <div class="action">
+            <div class="profile" onclick="menuToggle();">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg></div>
+            <div class="dropdown">
+    
+              <h3>welcome!! <br> <span> BITIAN</span></h3>
+                <a href=""><img class="profilePic" src="face.png" alt=""></a>
+    
+                 <ul>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
+                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                    <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+                  </svg><a href="">View Profile</a></li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
+                    <path d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"/>
+                  </svg>
+                  <a href="">Help & Support</a></li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                    <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg><a href="events.html">Events</a></li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                  </svg><a href="login.php">Log Out</a></li>
+                 </ul>
+            </div>
+          </div>
+          <a href="https://www.bitmesra.ac.in/bitnoida"><img class="logo" src="Birla_Institute_of_Technology_Mesra.png" alt=""></a>
+      </nav>
+  
+    <br>
+
+
+    
+
+    <div  class="readmore back">
+        <a href="index.html"><span style='font-size:50px;'>&#8592;</span></a>
+        <a href="index.html">BACK</a>
+      </div>
+<br>
+<br>
+
+<div class="parent">
+    
+        <div class="news">
+            <a href="News1.html"><img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/campusfeed/1195367_1662353338oS2XDm.jpg" alt=""></a>
+            <p>Best Piece of Advice by My Teacher</p>
+        </div>
+
+        <div class="news">
+            <a href="News2.html"><img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/campusfeed/752150_1670671635E3MwYx.jpg" alt=""></a>
+            <p>Congratulations Prof. Anijo Mathew for being appointed as Dean of the Institute of Design at Illinois Institute of Technology, Chicago</p>
+        </div>
+
+        <div class="news">
+            <a href="News3.html"><img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/campusfeed/1195367_1662353437OZBNSR.jpg" alt=""></a>
+            <p>testimonial by Former Vice Chancellor, The ICFAI University </p>
+        </div>
+        
+        <div class="news">
+            <a href=""><img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/campusfeed/752150_1643174176scvOtb.jpg" alt=""></a>
+            <p>49 years of Friendship</p>
+        </div>
+
+        <div class="news">
+            <a href=""><img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/campusfeed/752150_16435415504wp510.jpg" alt=""></a>
+            <p>CEO of SwiftSkill an BIT alumnus,raised a £150,000 pre-seed round from Jenson Funding Partners. </p>
+        </div>
+
+        <div class="news">
+            <a href=""><img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/campusfeed/752150_1646025246JVdLF1.jpg" alt=""></a>
+            <p>Best Selling book by our Alumnus</p>
+        </div>
+
+
+</div>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+ 
+<div class="footer">
+  
+       <div class="child left">
+           <h2>SUBSCRIBE TO OUR <br> NEWSLETTER</h2>
+           <div class="form__group field">
+               <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeM4H25DqkKYPtGRPssPW3HbGaJ7ztHORIsk19JyqGEDGnKgQ/formResponse" method="post">
+                 <input type="input" class="form__field" placeholder="email" name="entry.852612828" id='email' required />
+                 <input type="submit" value="Submit">
+               </form>
+               </div>
+
+       </div>
+       <div class="child center"> <a href="https://www.bitmesra.ac.in/bitnoida"><img class="logo" src="Birla_Institute_of_Technology_Mesra.png" alt=""></a></div>
+       <div class="child right">
+           <ul>
+               <h4 style="font-size: 20px;">INFO</h4><br>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="alumni.html">ALUMNIS</a></li>
+               <li><a href="index.php">COMMUNITY CHAT</a></li>
+               <li><a href="testimonial.html">ALUMNI TESTIMONIALS</a></li>
+               <li><a href="creator.html">CREATORS</a></li>
+           </ul>
+       </div>
+   
+
+   </div>
+
+</body>
+</html>
