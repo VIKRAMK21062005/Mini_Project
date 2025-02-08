@@ -28,8 +28,6 @@ Backend: Node.js, Express.js
 
 Database: MongoDB
 
-Authentication: JWT (JSON Web Tokens)
+📌 Website
 
-Machine Learning: Profile-based recommendation system for networking
-
-Deployment: Vercel / Netlify (Frontend), AWS / Heroku (Backend)
+https://shubhverman.github.io/Alumni-Connect-Website-Project/
