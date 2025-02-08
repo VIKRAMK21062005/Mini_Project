@@ -1,7 +1,35 @@
-# Alumni-Connect-Website-Project
-Alumini Connect is a website for connecting all of our Ex Alumni college students. It is a platform where all alumni can interact both publicly and privately through an inbuilt community chat . 
+# Alumni Connect Website
+## 📌 Project Overview
 
-I made this project with my friend in Hackathon Competion from 2 April to 8 April 2023.
-This Website is not responsive and only developed for Destop or PC view , i will make it responsive after short time . 
+The Alumni Connect Website is a platform designed to bridge the gap between students and alumni by providing networking opportunities, career guidance, and mentorship. This platform enables alumni to stay engaged with their alma mater while helping students with job opportunities, industry insights, and professional development.
 
-Project Preview Link :- https://shubhverman.github.io/Alumni-Connect-Website-Project/
+## 🚀 Features
+-✅ Alumni & Student Profiles – Users can create and manage their profiles to showcase their achievements and connect with others.
+
+-✅ Networking Hub – Search and connect with alumni based on interests, industries, and career goals.
+
+-✅ Job & Internship Portal – Alumni can share job opportunities, and students can apply directly.
+
+-✅ Events & Reunions – Stay updated with upcoming alumni meetups, webinars, and college events.
+
+-✅ Success Stories & Mentorship – Alumni can share experiences and offer mentorship to students.
+
+-✅ AI Chatbot Support – An AI-powered assistant for answering common queries.
+
+-✅ Donation Portal – Alumni can contribute to scholarships, infrastructure, and student support programs.
+
+-✅ Feedback & Surveys – Collect insights from users to enhance the platform.
+
+🛠️ Tech Stack
+
+Frontend: React.js
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Authentication: JWT (JSON Web Tokens)
+
+Machine Learning: Profile-based recommendation system for networking
+
+Deployment: Vercel / Netlify (Frontend), AWS / Heroku (Backend)
